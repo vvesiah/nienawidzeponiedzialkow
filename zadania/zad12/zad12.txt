@@ -1,0 +1,15 @@
+main category:
+https://regex101.com/r/0bCuIz/1/
+@li class="level-1[^"]+"[^"]+"([^"]+)">[^>]+>([^<]+)<[^>]+>[^\s]@gi
+
+subcategories:
+https://regex101.com/r/0bCuIz/2
+@level-2\s"[^"]+"([^"]+)">[^>]+>([^<]+)<@gi
+
+next page:
+https://regex101.com/r/0bCuIz/3
+@pagination_next"[^"]+"([^"]+)"@gi
+
+prdouct:
+https://regex101.com/r/0bCuIz/4
+@_container_thumbnail">[^>]+>[^"]+"product_img_link"[^"]+"([^"]+)"[^"]+"([^"]+)".*?src="([^"]+)".*?data-id-product="([^"]+)".*?product-price[^\d]+([^\s]+)\s@gi

@@ -1,0 +1,7 @@
+﻿sed -i 's/.iodiesel.//g' hipster.txt jeśli chcemy nadpisać
+
+lub
+
+
+
+sed 's/.iodiesel.//g' hipster.txt > hipster2.txt jeśli chcemy zapisać w innym pliku
